@@ -15,3 +15,4 @@ LVCS, CVCS, DVCS 등 많은 종류가 있으나, Git은 DVCS 갈래이다.
 로컬 저장소와 원격 저장소를 각각 가지는 버전 관리 시스템. 다수의 원격 저장소를 가질 수 있다.
 
 Git은 Snapshot이란 기능을 사용한다. 
+![snapshot](https://user-images.githubusercontent.com/48010847/53946942-23f03780-4108-11e9-9329-ccfdd012607f.jpeg)
