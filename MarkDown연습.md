@@ -40,6 +40,30 @@ my puppy summer
   - 셋
   
 
+### 수평선
+
+* * *
+***
+*****
+- - - 
+---------------------------
+
+
+### 강조
+
+*single asterisks*
+
+_single underscores_
+
+**double asterisks**
+
+__double underscores__
+
+++underline++
+
+~~cancelline~~
+
+
 
 
 
