@@ -104,10 +104,20 @@ let closureWithParamAndReturnType3 = { param in
 print(closureWithParamAndReturnType3("closure"))
 ```
 * 타입추론을 사용함
+---
 
 
+* 문자열을 입력받으면 그 문자열의 개수를 반환하는 클로져 구현
 
+```swift
+let countString = { (param: String) in return param.count}
+countString("ddddfee")
+```
 
+* 숫자 하나를 입력받은 뒤 1을 더한 값을 반환하는 클로져 구현
+```swift
+
+```
 
 
 
