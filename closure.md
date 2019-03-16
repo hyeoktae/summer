@@ -174,7 +174,32 @@ performClosure { $0.count }
  * 주변 컨텍스트의 값을 캡쳐하여 작업 수행 가능
 
 
+# Inline closure
+* 함수의 인수(Argument)로 들어가는 클로져
 
+```swift
+print("\n---------- [ Inline ] ----------\n")
+
+
+func printSwiftFunction() {
+  print("Swift!")
+}
+let printSwiftClosure = {
+  print("Swift!")
+}
+func closureParamFunction(closure: () -> Void) {
+  closure()
+}
+
+// closureParamFunction(closure: <#T##() -> Void#>)
+// closureParamFunction { <#code#> }
+
+closureParamFunction(closure: printSwiftFunction)
+closureParamFunction(closure: printSwiftClosure)
+closureParamFunction(closure: {
+  print("Inline closure - Explicit closure parameter name")
+})
+```
 
 
 
