@@ -164,7 +164,7 @@ performClosure() {
 
 performClosure { $0.count }
 ```
-
+* 함수의 인자로, 입력된 문자열의 개수를 반환하는 클로저를 전달하는 예
 
 
 
