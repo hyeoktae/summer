@@ -201,6 +201,37 @@ closureParamFunction(closure: {
 })
 ```
 
+# Trailing Closure
+* 함수의 괄호가 닫힌 후에도 인수로 취급되는 클로저
+* 함수의 마지막 인수(Argument)에만 사용 가능하고 해당 인수명은 생략
+* 하나의 라인에 다 표현하지 못할 긴 클로져에 유용
+
+```swift
+// 후위 또는 후행 클로저
+// closureParamFunction { <#code#> }
+
+closureParamFunction() {
+  print("Trailing closure - Implicit closure parameter name")
+}
+
+
+func multiClosureParams(closure1: () -> Void, closure2: () -> Void) {
+  closure1()
+  closure2()
+}
+
+multiClosureParams(closure1: {
+  print("inline")
+}, closure2: {
+  print("inline")
+})
+
+multiClosureParams(closure1: {
+  print("inline")
+}) {
+  print("trailing")
+}
+```
 
 
 
