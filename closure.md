@@ -73,3 +73,58 @@ function()
  }
  ```
  
+```swift
+func funcWithParamAndReturnType(_ param: String) -> String {
+  return param + "!"
+}
+print(funcWithParamAndReturnType("function"))
+```
+* 기본 함수
+
+```swift
+let closureWithParamAndReturnType1: (String) -> String = { param in
+  return param + "!"
+}
+print(closureWithParamAndReturnType1("closure"))
+```
+* 기본 클로져, 변수의 타입을 미리 선언해줌. 
+
+```swift
+let closureWithParamAndReturnType2 = { (param: String) -> String in
+  return param + "!"
+}
+print(closureWithParamAndReturnType2("closure"))
+```
+* 타입 선언을 파라미터에 해줌. 
+
+```swift
+let closureWithParamAndReturnType3 = { param in
+  return param + "!"
+}
+print(closureWithParamAndReturnType3("closure"))
+```
+* 타입추론을 사용함
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
