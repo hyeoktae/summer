@@ -116,8 +116,12 @@ countString("ddddfee")
 
 * 숫자 하나를 입력받은 뒤 1을 더한 값을 반환하는 클로져 구현
 ```swift
-
+let plusOne = { pm in return pm+1}
+plusOne(4)
 ```
+
+
+
 
 
 
