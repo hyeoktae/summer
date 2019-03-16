@@ -120,7 +120,13 @@ let plusOne = { pm in return pm+1}
 plusOne(4)
 ```
 
+# Syntax Optimization
 
+ #### Swift's syntax optimizations
+ - Inferring parameter and return value types from context
+ - Implicit returns from single-expression closures
+ - Shorthand argument names
+ - Trailing closure syntax
 
 
 
