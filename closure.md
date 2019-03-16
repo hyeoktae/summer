@@ -68,8 +68,8 @@ function()
  
  ## 클로저의 기본 형태
  ```swift
- { <#(parameters)#> -> <#return type#> in
-   <#statements#>
+ { (parameters) -> return type in
+   statements
  }
  ```
  
