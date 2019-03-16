@@ -129,7 +129,41 @@ plusOne(4)
  - Trailing closure syntax
 
 
+```swift
+func performClosure(param: (String) -> Int) {
+  param("Swift")
+}
 
+performClosure(param: { (str: String) -> Int in
+  return str.count
+})
+
+performClosure(param: { (str: String) in
+  return str.count
+})
+
+performClosure(param: { str in
+  return str.count
+})
+
+performClosure(param: {
+  return $0.count
+})
+
+performClosure(param: {
+  $0.count
+})
+
+performClosure(param: ) {
+  $0.count
+}
+
+performClosure() {
+  $0.count
+}
+
+performClosure { $0.count }
+```
 
 
 
